@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 
-class LLM:
+class LLM(ABC):
+
+    registry = {}
 
     @abstractmethod
     def call(self):
