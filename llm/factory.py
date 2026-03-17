@@ -1,4 +1,7 @@
-from agents.llm.base import LLM
+from llm.base import LLM
+from llm.loader import load_llm_plugins
+
+load_llm_plugins()
 
 class LLMFactory:
 

@@ -8,3 +8,4 @@
 2. Each LLM Provider class like Gemini, Claude, OpenAI, Ollama implements LLM base class and has its own implementation of Tool Calling, Structured Output Parsing, LLM Calling, Exception Handling etc.
 
 
+pyright, pytests, and ruff - how to use them

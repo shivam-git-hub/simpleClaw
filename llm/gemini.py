@@ -1,7 +1,7 @@
 from google import genai
 from google.genai import types
-from agents.llm.base import LLM
-from agents.llm.registery import register
+from llm.base import LLM
+from llm.registery import register
 
 @register("gemini")
 class Gemini(LLM):

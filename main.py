@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 if __name__ == "__main__":
     load_dotenv()
 
-    from agents.llm.factory import LLMFactory
+    from llm.factory import LLMFactory
 
     llm = LLMFactory.create("gemini", model = "gemini-2.5-flash")
 

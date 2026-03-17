@@ -1,4 +1,4 @@
-from agents.llm.factory import LLM
+from llm.factory import LLM
 
 def register(name):
 
